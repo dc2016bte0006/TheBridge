@@ -40,7 +40,7 @@ public class UserController {
 	
 	
 	
-	@PostMapping("/users")
+	@PostMapping("/users/add")
 	public User addUser(@RequestBody User user) {
 		return this.user.addUser(user);
 		
